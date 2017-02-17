@@ -1,0 +1,9 @@
+{
+  "run_list": [
+    "recipe[nginx]",
+    "recipe[app]"
+  ],
+  "automatic": {
+    "ipaddress": "local.itfu.com"
+  }
+}
